@@ -100,6 +100,65 @@ export const AboutSection = () => {
         />
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
+            <Card className="col-span-2">
+              <CardHeader
+                title="Professional Experience"
+                description="A look into the roles I've held and the impactful work I've contributed to."
+              />
+              <div className="px-6 pb-4 space-y-4">
+                <div>
+                  <p className="text-sm text-white/50">2023 – Present</p>
+                  <h3 className="text-base font-semibold">
+                    Front-End Developer @ TechNova
+                  </h3>
+                  <ul className="list-disc list-inside text-white/70 text-sm mt-1 space-y-1">
+                    <li>Built scalable UIs with React & Next.js</li>
+                    <li>Improved performance & accessibility</li>
+                    <li>Collaborated across design & backend teams</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <p className="text-sm text-white/50">2021 – 2023</p>
+                  <h3 className="text-base font-semibold">
+                    Web Developer @ PixelForge
+                  </h3>
+                  <ul className="list-disc list-inside text-white/70 text-sm mt-1 space-y-1">
+                    <li>Created responsive websites for clients</li>
+                    <li>Focused on SEO and mobile-first design</li>
+                    <li>Worked with Tailwind CSS & JavaScript</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+            <Card className="col-span-1">
+              <CardHeader
+                title="Education"
+                description="My academic background in Computer Science and Engineering."
+              />
+
+              <div className="px-6 pb-4 space-y-4">
+                <div>
+                  <p className="text-sm text-white/50">2019 – 2021</p>
+                  <h3 className="text-base font-semibold">
+                    M.Tech in Computer Science & Engineering
+                  </h3>
+                  <p className="text-sm text-white/70 mt-1">NIT Nagpur</p>
+                </div>
+
+                <div>
+                  <p className="text-sm text-white/50">2013 – 2017</p>
+                  <h3 className="text-base font-semibold">
+                    B.Tech in Computer Science & Engineering
+                  </h3>
+                  <p className="text-sm text-white/70 mt-1">
+                    University of Calicut
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </div>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
               <CardHeader
                 title="My Reads"

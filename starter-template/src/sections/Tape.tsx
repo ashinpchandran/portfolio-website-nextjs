@@ -1,19 +1,33 @@
 import StarIcon from "@/assets/icons/star.svg";
 import { Fragment } from "react";
 
+// const words = [
+//   "Performant",
+//   "Accessible",
+//   "Secure",
+//   "Interactive",
+//   "Scalable",
+//   "User Friendly",
+//   "Responsive",
+//   "Maintainable",
+//   "Search Optimized",
+//   "Usable",
+//   "Reliable",
+// ];
 const words = [
-  "Performant",
-  "Accessible",
-  "Secure",
-  "Interactive",
-  "Scalable",
-  "User Friendly",
   "Responsive",
+  "Accessible",
+  "Performant",
+  "Secure",
+  "Scalable",
   "Maintainable",
-  "Search Optimized",
-  "Usable",
+  "User-Friendly",
+  "Interactive",
+  "SEO-Friendly",
   "Reliable",
+  "Clean Code",
 ];
+
 export const TapeSection = () => {
   return (
     <div className="py-16 lg:py-24 overflow-x-clip">
